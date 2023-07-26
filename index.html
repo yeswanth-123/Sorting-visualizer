@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+    <div class="div1">
+             <h1 id="h1"><span>Sorting Visualizer</span></h1>
+    </div>
+    <hr color="aqua" class="hr1">
+    <div class="column">
+        <div class="buttons">
+            <button onclick="Inputarray()">Input</button>
+            <button onclick="Randomize()" style="margin-left: 50px;">Randamize Array</button><br>
+            <button onclick="SameArray()">Same Array</button>
+            <button onclick="ResetArray()">Reset</button>
+            <p id="p1">Sorting Techniques</p><br>
+            <button class="one" onclick="selected(1)">Bubble sort</button>
+            <button class="two" onclick="selected(2)">Insertion sort</button>
+            <button class="three" onclick="selected(3)">Selection sort</button>
+            <button class="four" onclick="selected(4)">Merge sort</button>
+            <button class="five" onclick="selected(5)">Quick sort</button>
+            <button class="stop" onclick="clearcontent()">Stop</button>
+            <button class="play" onclick="play()">play</button>
+            <button class="pause" onclick="pause()">pause</button>
+        </div>
+    </div>
+    <div id="column1">
+        <p id="passage"></p>
+    </div>
+    <script src="script.js"></script>
+    <div class="row2">
+        <p id="matter"></p>
+    </div>
+</body>
+</html>
