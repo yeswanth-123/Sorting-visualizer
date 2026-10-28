@@ -214,7 +214,7 @@ async function QuickSort(lb,ub)
 	await QuickSort(lb,pos-1);
 	await QuickSort(pos+1,ub);
    }
-   else
+   else if(lb==ub)
    changecolor(lb);
 }
 function changecolor(i)
